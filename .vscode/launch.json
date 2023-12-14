@@ -4,8 +4,9 @@
     // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "name": "(gdb) 起動", // デバッグオプションの名前
+        
+        { // (gdb) 起動
+            "name": "C/C++_Debug", // デバッグオプションの名前
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/${fileBasenameNoExtension}.out", // デバッグ先のファイル
